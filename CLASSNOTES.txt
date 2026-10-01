@@ -1,0 +1,57 @@
+BIG O TEASER PROBLEMS
+
+
+
+ADD = N
+
+MULTIPLY = N^2
+
+MATRIX MULTIPLY = N^3   //theoretically could be N^2.807
+
+SAT (satisfiability) =  2^N               //father of all modern computing theory
+      (A OR B) AND (NOT C) AND (A OR NOT B)
+      crazy that we do not CURRENTLY have a faster algorithm that has been found when finding sat problems
+
+TRAVELING SALESMAN PROBLEM = N!      (n factorial)
+      (could also be 2^N * n^2)
+
+TOWERS OF HONAOI
+
+HALTING PROBLEM (infinity)  can't prove that there isn't a forever loop, can't prove that it ends
+      NO SOLUTION
+
+
+
+==========================================================
+P is polynomial and is possible to solve in a reasonable of time so not N! and up
+      it's solvable
+
+NP is all problems that given the answer can be verified in polytime
+      factoring, 
+
+NP-RING is all problems that, given the answer can be verified in polytime and appear 
+      to be exponential to solve
+
+----------------------------------------------------------
+Stephen Cook 1970s
+      said that there's another category in NP called NP-complete
+      NP-COMPLETE have the property that every other problem in NP that map to SAT!!!
+            everything maps to SAT
+            p = np
+            DOES P = NP ???
+
+=============================================================
+ADT - abstract data type (like classes)
+      ex: car, 
+      minimum information in order to use it
+
+DETAIL - (opposite)
+
+STACK - first in first out/ last in last out
+
+QUEUES - very similiar to stacks
+
+---------- 
+assignment - make an adt called bag,
+      won't allow duplicates #we will have it return false
+      able to delete data #returns true if succesful

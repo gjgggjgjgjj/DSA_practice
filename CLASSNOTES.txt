@@ -55,3 +55,29 @@ QUEUES - very similiar to stacks
 assignment - make an adt called bag,
       won't allow duplicates #we will have it return false
       able to delete data #returns true if succesful
+
+
+
+================================================
+Trees 
+Binary Trees
+Binary Search Tree 
+--- 
+
+
+in the bag class we'll need a self.root for the ultimate parent
+the root will have a pointer a pointer to left child and right child
+      the children will also have left and right children
+      using >= or <= or < or >
+      go down according to the order of each other
+
+
+__ne__ is !=
+
+figure out 
+__le__
+__ge__ 
+__lt__ 
+__gt__
+
+

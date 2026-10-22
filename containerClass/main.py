@@ -1,10 +1,11 @@
-from Bag import Bag
+from Bag import first_Bag, linked_list_Bag
 import time
 from Student import Student
 
 def main():
 
-    bag = Bag()
+    # bag = first_Bag()
+    bag = linked_list_Bag()
 
     startTime = time.time()
     #inserting the students

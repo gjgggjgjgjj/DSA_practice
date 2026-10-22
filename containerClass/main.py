@@ -31,7 +31,7 @@ def main():
                 print("error", fName,lName, time.time())
             
 
-    print("Total students in bag: ",bag.size())
+    print("Total students in bag: ",bag.getSize())
     print("Time to insert: ",time.time() - startTime, "seconds\n")
 
     #adding the total time and also finding the average student age
@@ -41,7 +41,7 @@ def main():
     for item in bag: 
         total_age += item.age
 
-    avg_age_all = total_age / bag.size()
+    avg_age_all = total_age / bag.getSize()
     print("Average age of all students: ,",avg_age_all)
     print("Time to calculate average age: ",time.time() - startTime ,"seconds\n")
 
@@ -64,7 +64,7 @@ def main():
             
 
 
-    print("Students remaining in bag: ", bag.size())
+    print("Students remaining in bag: ", bag.getSize())
     print("Time to delete: ", time.time() - startTime ,"seconds\n")
 
     startTime= time.time()
